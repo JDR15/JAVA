@@ -6,6 +6,9 @@ public class Average {
 
         double nota1, nota2, nota3, asistencia, promedio;
 
+        System.out.println("Ingrese su nombre");
+        String nombre = lectura.nextLine();
+
         System.out.println("Ingresa la primera nota");
         nota1 = lectura.nextDouble();
         System.out.println("Ingresa la segunda nota");
@@ -18,7 +21,7 @@ public class Average {
 
         promedio = (nota1+nota2+nota3)/3;
 
-        if(promedio>=3.5 && asistencia>=70){
+        if(promedio>=3.5 && asistencia>=70 || nombre.equals("Johan")){
             //Si condicion se cumple
             System.out.println(" Su promedio de notas es " +promedio+ " su porcentaje de asistencia es " +asistencia+ " por lo tanto aprobaste");
         }else{

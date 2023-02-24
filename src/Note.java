@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Grade {
+public class Note {
     public static void main(String[] args) {
         Scanner lectura = new Scanner(System.in);
 
@@ -26,5 +26,6 @@ public class Grade {
         }
        
         lectura.close();
+        
     }
 }

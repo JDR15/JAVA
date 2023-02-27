@@ -11,19 +11,19 @@ public class Discount {
         buy = lectura.nextInt();
 
 
-        if(numero == 1){
+        if( buy>=50000 && numero == 1){
             red = (buy*10)/100;
             System.out.println(" Sacaste la bolita roja tu descuento es de: " +red);
         }
-        else if(numero == 2){
+        else if( buy>=50000 && numero == 2){
             blue =(buy*30)/100;
             System.out.println(" Sacaste la bolita azul tu descuento es de: " +blue);
         }
-        else if(numero == 3){
+        else if( buy>=50000 && numero == 3){
             yellow =(buy*50)/100;
             System.out.println(" Sacaste la bolita amarilla tu descuento es de: " +yellow);
         }
-        else if(numero == 4){
+        else if( buy>=50000 && numero == 4){
             System.out.println(" Sacaste la bolita blanca tu compra es gratis ");
         }
         else if(numero == 5){

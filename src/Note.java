@@ -16,13 +16,13 @@ public class Note {
         }
  
         if(resultados<=2.9){
-            System.out.println(" Reprobaste la asignatura ");
+            System.out.println(" Reprobaste la asignatura, tu promedio fue "+ resultados);
         }
         else if(resultados<=4.0){
-            System.out.println(" Pasaste raspando la asignatura ");
+            System.out.println(" Pasaste raspando la asignatura , tu promedio fue " + resultados);
         }
         else if(resultados>=4.0){
-            System.out.println(" Aprobaste con buenos resultados ");
+            System.out.println(" Aprobaste con buenos resultados. tu promedio fue " + resultados);
         }
        
         lectura.close();

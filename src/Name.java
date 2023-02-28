@@ -26,7 +26,6 @@ public class Name {
         String subName = name.substring(0, 2);
         System.out.println(" Dos primeras letras combinado con apellido " +subName+lastn);
 
-
         lectura.close();
     }
 }

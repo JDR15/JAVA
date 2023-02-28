@@ -5,6 +5,7 @@ public class Craps {
         String tirar;
         System.out.println("¿Quieres tirar los dados?");
         tirar=lectura.nextLine();
+        System.out.println(tirar+ "");
        
         int dado1 = (int)(Math. random()*6+1); 
         int dado2 = (int)(Math. random()*6+1); 

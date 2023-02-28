@@ -31,6 +31,12 @@ public class Misarrays {
         for (int i: vector1){
             System.out.println(i);
         }
+
+
+
+
+        lectura.close();
     }
+    
     
 }

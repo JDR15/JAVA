@@ -4,22 +4,18 @@ public class Nine {
 public static void main(String[] args) {
     Scanner lectura = new Scanner(System.in);
     int  number = (int) Math.random()*2+1;
-    double bet, wager, op, contador, acumulador, money, wager2;
+    double bet, wager, op, acumulador, money, wager2;
     
 
-    
     System.out.println("Ingrese su apuesta global ");
     bet = lectura.nextInt();
 
-
     op = 0;
-    contador = 0;
     acumulador = 0;
 
     do {
         System.out.println("Ingrese el monto que quiere apostar: " );
         wager = lectura.nextInt();
-        contador = contador+1;
         acumulador = acumulador+bet;
         money = acumulador;  
 
@@ -48,8 +44,6 @@ public static void main(String[] args) {
         }
 
        
-
-
         System.out.println(" Desea apostar de nuevo 1.Si 2.No");
         op = lectura.nextInt();
 
